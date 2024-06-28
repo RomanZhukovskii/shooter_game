@@ -6,7 +6,7 @@ import time as tm
 mixer.init()
 mixer.music.load('space.ogg')
 bullet_music = mixer.Sound('fire.ogg')
-# mixer.music.play()
+# Здесь был Илья
 
 class GameSprite(sprite.Sprite):
     def __init__(self, player_image, speed, x, y):
